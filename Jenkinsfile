@@ -32,7 +32,7 @@ pipeline{
                 branch 'develop'
             }
             steps{
-                echo "deploying to dev"
+                echo "deploying to development"
             }
        }
        stage('deploy to qa'){
