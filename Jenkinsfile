@@ -50,7 +50,7 @@ pipeline{
             }
             steps{
                 echo "skipTests is ${params.skipTest}"
-                echo "deploying to prod"
+                echo "deploying to production"
             }
        }
     } 
